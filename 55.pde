@@ -19,7 +19,6 @@ class circle
   {
     stroke(255);
     textAlign(LEFT);
-    fill(255,255);
     if(moveMode == 0){
       x += countDown/2;
       text(str,x,y);
@@ -51,9 +50,7 @@ void setup()
 
 void draw()
 {
-  //background(0);
-  fill(0,99);
-  rect(0,0,width,height);
+  background(0);
   if(onoff){
     for (int i = circles.size()-1; i >=0; i--)
     {
@@ -74,7 +71,6 @@ void draw()
       }
     }
     textAlign(CENTER,CENTER);
-    fill(255,255);
     text("Click to Start or Stop",width/2,height*3/4);
   }
 }
