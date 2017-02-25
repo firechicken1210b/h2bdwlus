@@ -41,7 +41,7 @@ void setup()
   size(800,450);
   circles = new ArrayList<circle>();
   frameRate(30);
-  
+  background(0);
   
   String TXTs[] = loadStrings("alltime.txt");
   for(int i =1;i<TXTs.length;i++){
@@ -51,7 +51,7 @@ void setup()
 
 void draw()
 {
-  background(0);
+  //background(0);
   fill(204,10);
   rect(0,0,width,height);
   if(onoff){
