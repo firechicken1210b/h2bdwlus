@@ -74,6 +74,7 @@ void draw()
       }
     }
     textAlign(CENTER,CENTER);
+    fill(255,255);
     text("Click to Start or Stop",width/2,height*3/4);
   }
 }
