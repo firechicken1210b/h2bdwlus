@@ -19,6 +19,7 @@ class circle
   {
     stroke(255);
     textAlign(LEFT);
+    fill(255,255);
     if(moveMode == 0){
       x += countDown/2;
       text(str,x,y);
@@ -51,6 +52,8 @@ void setup()
 void draw()
 {
   background(0);
+  fill(204,10);
+  rect(0,0,width,height);
   if(onoff){
     for (int i = circles.size()-1; i >=0; i--)
     {
