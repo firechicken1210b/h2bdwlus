@@ -37,7 +37,7 @@ String diary[] = new String[1756];
 Boolean onoff;
 void setup()
 {
-  size(360,480);
+  size(360,640);
   circles = new ArrayList<circle>();
   frameRate(30);
   
