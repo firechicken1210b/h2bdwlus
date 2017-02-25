@@ -52,7 +52,7 @@ void setup()
 void draw()
 {
   //background(0);
-  fill(204,10);
+  fill(0,30);
   rect(0,0,width,height);
   if(onoff){
     for (int i = circles.size()-1; i >=0; i--)
